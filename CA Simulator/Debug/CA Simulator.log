@@ -1,0 +1,28 @@
+﻿Build started 28/03/2017 18:09:39.
+     1>Project "C:\Users\User\Documents\Individual Project\CA Simulator\CA Simulator.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\CA Simulator.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "CA Simulator.cpp"
+         CA Simulator.cpp
+     1>c:\users\user\documents\individual project\ca simulator\rule.h(65): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\documents\individual project\ca simulator\rule.h(78): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\documents\individual project\ca simulator\rule.h(151): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\user\documents\individual project\ca simulator\rule.h(160): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\user\documents\individual project\ca simulator\grid.h(444): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\individual project\ca simulator\grid.h(457): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\individual project\ca simulator\ca.h(365): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\documents\individual project\ca simulator\ca.h(434): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\documents\individual project\ca simulator\ca.h(469): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\documents\individual project\ca simulator\ca.h(478): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\documents\individual project\ca simulator\ca.h(501): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Documents\Individual Project\CA Simulator\Debug\CA Simulator.exe" /INCREMENTAL /NOLOGO CoreStructures\CoreStructures.lib opengl32.lib glu32.lib freeglut\freeglut.lib glew\glew32.lib /NODEFAULTLIB:LIBCMTD.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\User\Documents\Individual Project\CA Simulator\Debug\CA Simulator.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Documents\Individual Project\CA Simulator\Debug\CA Simulator.lib" /MACHINE:X86 "Debug\CA Simulator.res"
+         "Debug\CA Simulator.obj"
+         "Debug\CA SimulatorDlg.obj"
+         Debug\OpenGLControl.obj
+         Debug\stdafx.obj
+         CA Simulator.vcxproj -> C:\Users\User\Documents\Individual Project\CA Simulator\Debug\CA Simulator.exe
+     1>Done Building Project "C:\Users\User\Documents\Individual Project\CA Simulator\CA Simulator.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.50

@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CASimulatorApp" Collapsed="true">
+    <Position X="6.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAQAAAAAAAAAAAA=</HashCode>
+      <FileName>CA Simulator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CWinApp" Collapsed="true">
+    <Position X="6.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>57Zg4NJZMRYwEDOJuKSX1EtlESlJxcwkSSNipVAHtHc=</HashCode>
+      <FileName>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CASimulatorDlg">
+    <Position X="3" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACCABEAAAEAAAAIABAAAAAAAAAgAAQAAAAEAAAQAAA=</HashCode>
+      <FileName>CA SimulatorDlg.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="openGLWindow" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Cell" Collapsed="true">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <AssociationLine Name="bottomLeftVertexPos" Type="Vertex">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-1.655" Y="0.11" Height="0.182" Width="1.573" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAABQIAAgAAAAAAQAgAAAQAQAAAA=</HashCode>
+      <FileName>Grid.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="bottomLeftVertexPos" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Grid" Collapsed="true">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAgACIAIEAAAgAAACAAAAAAAAAAAAAAAAAAgIAwA=</HashCode>
+      <FileName>Grid.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="activeCell" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="OpenGLControl">
+    <Position X="2.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACAEEEAAQMAAECAAIhAIBTCADIBAIQEAAQAARAABAA=</HashCode>
+      <FileName>OpenGLControl.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="grid" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CAboutDlg" Collapsed="true">
+    <Position X="5.5" Y="5.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="CAboutDlg::__unnamed_enum_0003_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CA SimulatorDlg.cpp</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CA SimulatorDlg.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CWnd" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="CWnd::AdjustType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="CWnd::RepositionFlags" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Class Name="CWnd::XAccessible" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="CWnd::XAccessibleServer" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>v977//bff7//b//96f/P/f/97/+e33f39uv7/d///7c=</HashCode>
+      <FileName>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDialogEx" Collapsed="true">
+    <Position X="4.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABBAAACAAEAAAiAACCCBEBQAAAAAAEAIACCgQAAAAI=</HashCode>
+      <FileName>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxdialogex.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDialog" Collapsed="true">
+    <Position X="4.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAGAyCkAQMCYAQgEDAIAgBSFACBDAUAgBAoQAAFABiA=</HashCode>
+      <FileName>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CWinThread" Collapsed="true">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAkAAQwAICAIBhgQCAABkAABAAEAgQYAgAAAgAgJCAM=</HashCode>
+      <FileName>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCmdTarget" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQBRAgFAIUREFAwCNAoxmIAxQRSASAACwAAQDABAMA=</HashCode>
+      <FileName>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Vertex" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>Grid.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
